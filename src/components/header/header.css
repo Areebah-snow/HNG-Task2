@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+}
+.header{
+}
+
+.headerDesc{
+     color: white;
+     width: 400px;
+     padding-left: 40px;
+     transform: translateY(50%);
+}
+
+.headerMovieTitle{
+    font-size: 3rem;
+   
+}
+
+.headerMovieRatings{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    margin-block: 10px;
+    
+}
+
+
+.tomatoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-block: 5px;
+}
+
+.tomatoDiv p{
+    margin-inline: 30px 50px;
+}
+.tomatoDiv span{
+    margin-left: 10px;
+}
+
+.watchNow{
+    color: white;
+    background-color: #BE123C;
+    padding: 8px 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.watchNow a{
+    color: white;
+    text-decoration: none;
+    vertical-align: top;
+    padding-left:5px ;
+}

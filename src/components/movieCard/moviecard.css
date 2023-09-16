@@ -1,0 +1,29 @@
+.featured h1{
+    margin: 60px 0px 0px 30px;
+  }
+  .movie-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
+    margin: 20px 0px;
+   
+  }
+  .movie-card {
+    
+      
+      padding: 10px ;
+      
+      max-width: 300px;
+       
+    }
+    
+    .movie-poster {
+      max-width: 100%;
+      /* height: auto; */
+   
+    }
+    
+    .movie-details {
+      text-align: center;
+    }
+    

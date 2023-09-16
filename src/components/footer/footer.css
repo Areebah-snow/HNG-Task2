@@ -1,0 +1,29 @@
+.icons {
+    font-size: 30px;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 20px;
+  }
+  
+  .footer-policy {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-text {
+    font-weight: 600;
+  
+  }

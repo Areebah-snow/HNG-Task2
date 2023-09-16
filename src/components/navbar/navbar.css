@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+   
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 15px 50px ;
+    gap: 30px;
+    z-index: 999;
+}
+
+.navLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.siteLogo{
+  width: 30px;
+
+}
+
+/* .signIn{
+    text-decoration: none;
+    color: black;
+    background-color: ;
+} */
+
+.navMiddle{
+    display: flex;
+    border: 2px solid white;
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+.navMiddle input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.navMiddle input::placeholder{
+    color: white;
+}
+
+.navMiddle i{
+    color: white;
+}
