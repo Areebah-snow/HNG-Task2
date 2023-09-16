@@ -7,7 +7,7 @@ const MovieList = () => {
     // const API_KEY = process.env.REACT_APP_API_KEY;
 
     const [movies, setMovies] = useState([]);
-    const [term, setTerm] = useState('');
+    // const [term, setTerm] = useState('');
   
     useEffect(() => {
 

@@ -3,11 +3,15 @@ import imdb from '../../images/imdb.png'
 import '../movieCard/moviecard.css'
 import {Link } from 'react-router-dom'
 
-const MovieCard = ({movies,id}) => {
+const MovieCard = ({movies}) => {
     const API_IMG = "https://image.tmdb.org/t/p/w500/";
+    const encodedId = encodeURIComponent(movies.id);
+     const url = `/movies/${encodedId}`
 
     return (
-        <Link to={`/movies/${id}`} data-testid="movie-card" className="movie-card">
+
+
+      <Link to={url} data-testid="movie-card" className="movie-card">
       <div className="poster">
         <img
           data-testid="movie-poster"

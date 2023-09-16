@@ -6,6 +6,7 @@ import '../movieDetails/moviedetails.css'
 
 const MovieDetails = () => {
     const [movieDetails, setmovieDetails] = useState([]);
+
     const { id } = useParams();
     const API_KEY = '1ef91e2e402f45a12493311c6d974d7c'
     const fetchMovieDetails = () => {
