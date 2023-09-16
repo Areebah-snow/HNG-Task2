@@ -10,13 +10,17 @@ const Home = () => {
     const API_KEY= '1ef91e2e402f45a12493311c6d974d7c'
 
     return (
-        <div className="main-container">
+        <div>
+         <div className="main-container">
             <Navbar apiKey={API_KEY} />
             <Header/>
-            <MovieList/>
-              
-            <Footer/>
+           
         </div>
+         <MovieList/>
+              
+         <Footer/>
+        </div>
+       
     )
 }
 
