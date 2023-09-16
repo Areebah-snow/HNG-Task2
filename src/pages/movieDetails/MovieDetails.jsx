@@ -2,14 +2,15 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import {AiFillPlayCircle } from 'react-icons/ai'
+import '../movieDetails/moviedetails.css'
 
 const MovieDetails = () => {
     const [movieDetails, setmovieDetails] = useState([]);
     const { id } = useParams();
-    
+    const API_KEY = '1ef91e2e402f45a12493311c6d974d7c'
     const fetchMovieDetails = () => {
       fetch(
-        `https://api.themoviedb.org/3/movie/${id}?api_key=1ef91e2e402f45a12493311c6d974d7c`
+        `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}`
       )
         .then((res) => res.json())
         .then((json) => setmovieDetails(json));

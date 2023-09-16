@@ -10,11 +10,16 @@
   }
   .movie-card {
     
-      
+      text-decoration: none;
+      color: black;
       padding: 10px ;
       
       max-width: 300px;
        
+    }
+
+    .movie-card:hover{
+      box-shadow: 3px 3px 5px #ddd;
     }
     
     .movie-poster {

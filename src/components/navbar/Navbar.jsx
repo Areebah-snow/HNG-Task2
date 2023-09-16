@@ -5,7 +5,7 @@ import '../navbar/navbar.css'
 import Search from '../search/Search';
 
 
-const Navbar = () => {
+const Navbar = ({apiKey}) => {
     return (
         <div className="navbar">
         <div className="navLeft">
@@ -13,7 +13,7 @@ const Navbar = () => {
          
         </div>
 
-        <Search/>
+      <Search apiKey={apiKey} />/
         
 
      
